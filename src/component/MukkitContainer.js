@@ -87,7 +87,7 @@ const MukkitContainer = () => {
   };
 
   useEffect(() => {
-    dbService.collection('mukkit').orderBy('sn').onSnapshot(snapShot => {
+    dbService.collection('mukkit').orderBy('sn', 'desc').onSnapshot(snapShot => {
       const list = snapShot.docs.map(row => ({ id: row.id, onEdit: false, ...row.data() }));
       setMukkitList(list);
     });

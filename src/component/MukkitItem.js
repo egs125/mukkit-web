@@ -21,8 +21,8 @@ const MukkitItem = ({
   onClickCancelBtn,
 }) => (
   <div className="mukkit-item">
-    <Row justify="space-around" align="middle">
-      <Col span={1}>
+    <Row align="middle">
+      <Col span={3}>
         <Button
           shape="circle"
           type={mukkit.isVisited ? 'primary' : 'default'}
@@ -30,7 +30,7 @@ const MukkitItem = ({
           onClick={() => onClickFaceIcon(mukkit)}
         />
       </Col>
-      <Col span={15}>
+      <Col span={16}>
         <Row>
           <Col span={15}>
             <Input
@@ -52,7 +52,7 @@ const MukkitItem = ({
           </Col>
         </Row>
       </Col>
-      <Col span={2}>
+      <Col span={5}>
         <div className="btn-group">
           {mukkit.onEdit ? (
             <>

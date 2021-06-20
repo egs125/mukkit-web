@@ -32,7 +32,7 @@ body {
 
 .mukkit-item-input {
   width: 50vmin !important;
-  height: 5vmin !important;
+  height: 11vmin !important; 
   margin: 1vh !important;
   border: none !important;
   border-bottom: 1px solid gray !important;

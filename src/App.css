@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: '0 0 100%';
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height : 10vh;
+  width : 100vmin;
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new-mukkit {
+  text-align: center;
+  padding: 2vh;
+}
+
+.new-input {
+  width: 80vmin !important;
+  height: 7vmin !important;
+  margin: 1vh !important;
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.mukkit-item-input {
+  width: 50vmin !important;
+  height: 5vmin !important;
+  margin: 1vh !important;
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+  background-color: #fff !important;
+  color: rgba(0, 0, 0, 0.85) !important;
 }
